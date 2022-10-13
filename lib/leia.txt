@@ -1,0 +1,6 @@
+- Conf.dart
+
+-- Configurações gerais do aplicativo (se está usando o servidor local ou não, configura-se os dados de conexão ao servidor).
+
+-- No futuro, pretendo injetar todas as classes importantes no diGlobalContainer. Atualmente injeto em lib/Init.dart
+-- Também injeto as funçoes de notificações popup, loadings e etc no GlobalContainer, isso é feito no lib/pages/page_component.dart e as funções são criadas em lib/component_functions.dart
